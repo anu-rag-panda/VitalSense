@@ -8,14 +8,14 @@
 5. [Setup Instructions](#setup-instructions)
 6. [API Documentation](#api-documentation)
 7. [Contributing](#contributing)
-8. [📄 License and Disclaimer](#📄-license-and-disclaimer)
+8. [📄 License and Disclaimer](#license-and-disclaimer)
 9. [Authors](#authors)
 10. [Support](#support)
 11. [Last Updated](#last-updated)
 
 ---
 
-# 🏥 Project Overview
+# Project Overview
 
 ### Purpose
 The IoT Health Monitoring System is a comprehensive solution for real-time patient vital sign monitoring using multiple biomedical sensors connected to an ESP8266 microcontroller. The system collects ECG, heart rate, SpO2, and temperature data, then transmits it to both cloud database platforms (Supabase) for analysis and storage.
@@ -160,7 +160,7 @@ For more detailed API documentation, configuration guides, and troubleshooting i
 4. Push to the branch
 5. Create a Pull Request
 
-# 📄 License and Disclaimer
+# License and Disclaimer
 
 ### Medical Disclaimer
 This system is intended for educational and monitoring purposes only. It is not a medical device and should not be used for diagnostic purposes. Always consult healthcare professionals for medical advice and diagnosis.
