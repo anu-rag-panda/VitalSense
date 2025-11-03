@@ -1,7 +1,7 @@
 # IoT Health Monitoring System - Complete Documentation
 
 ## 📖 Table of Contents
-1. [Project Overview](#🏥-project-overview)
+1. [Project Overview](#project-overview)
 2. [Project Structure](#project-structure)
 3. [Features](#features)
 4. [Prerequisites](#prerequisites)
