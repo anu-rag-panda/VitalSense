@@ -3,7 +3,7 @@
 ## 📖 Table of Contents
 1. [Project Overview](##🏥-project-overview)
 2. [Project Structure](##project-structure)
-3. [Features](##features)
+3. [Features](#features)
 4. [Prerequisites](##prerequisites)
 5. [Setup Instructions](##setup-instructions)
 6. [API Documentation](##api-documentation)
@@ -44,7 +44,7 @@ The IoT Health Monitoring System is a comprehensive solution for real-time patie
     └── VitalSense.ino     # Arduino code for vital signs monitoring
 ```
 
-## Features
+# Features
 
 - Real-time vital signs monitoring
 - ESP8266-based sensor integration
