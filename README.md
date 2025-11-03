@@ -1,21 +1,24 @@
 # IoT Health Monitoring System - Complete Documentation
 
 ## 📖 Table of Contents
-1. [Project Overview](#project-overview)
-2. [System Architecture](#system-architecture)
-3. [Hardware Setup](#hardware-setup)
-4. [Software Installation](#software-installation)
-5. [Configuration Guide](#configuration-guide)
-6. [API Documentation](#api-documentation)
-7. [Troubleshooting](#troubleshooting)
-8. [Maintenance](#maintenance)
+1. [Project Overview](##🏥-project-overview)
+2. [Project Structure](##project-structure)
+3. [Features](##features)
+4. [Prerequisites](##prerequisites)
+5. [Setup Instructions](##setup-instructions)
+6. [API Documentation](##api-documentation)
+7. [Contributing](##contributing)
+8. [📄 License and Disclaimer](##📄-license-and-disclaimer)
+9. [Authors](##authors)
+10. [Support](##support)
+11. [Last Updated](##last-updated)
 
 ---
 
 ## 🏥 Project Overview
 
 ### Purpose
-The IoT Health Monitoring System is a comprehensive solution for real-time patient vital sign monitoring using multiple biomedical sensors connected to an ESP8266 microcontroller. The system collects ECG, heart rate, SpO2, and temperature data, then transmits it to both cloud platforms (ThingSpeak) and local databases for analysis and storage.
+The IoT Health Monitoring System is a comprehensive solution for real-time patient vital sign monitoring using multiple biomedical sensors connected to an ESP8266 microcontroller. The system collects ECG, heart rate, SpO2, and temperature data, then transmits it to both cloud database platforms (Supabase) for analysis and storage.
 
 ### Key Features
 - **Multi-sensor Integration**: ECG, Pulse Oximetry, Temperature monitoring
@@ -118,7 +121,7 @@ The IoT Health Monitoring System is a comprehensive solution for real-time patie
 
 **Response**: "Scan started!"
 
-#### POST /upload
+#### POST /upload-patient-data
 **Purpose**: Send collected data to cloud services
 **Response**: "Data uploaded successfully!" or "Upload failed!"
 
@@ -185,4 +188,5 @@ For technical support and contributions, please:
 
 ## Last Updated
 Version: 1.0  
+
 Date: November 2, 2025
