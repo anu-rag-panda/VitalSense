@@ -1,21 +1,21 @@
 # IoT Health Monitoring System - Complete Documentation
 
 ## 📖 Table of Contents
-1. [Project Overview](##🏥-project-overview)
-2. [Project Structure](##project-structure)
+1. [Project Overview](#🏥-project-overview)
+2. [Project Structure](#project-structure)
 3. [Features](#features)
-4. [Prerequisites](##prerequisites)
-5. [Setup Instructions](##setup-instructions)
-6. [API Documentation](##api-documentation)
-7. [Contributing](##contributing)
-8. [📄 License and Disclaimer](##📄-license-and-disclaimer)
-9. [Authors](##authors)
-10. [Support](##support)
-11. [Last Updated](##last-updated)
+4. [Prerequisites](#prerequisites)
+5. [Setup Instructions](#setup-instructions)
+6. [API Documentation](#api-documentation)
+7. [Contributing](#contributing)
+8. [📄 License and Disclaimer](#📄-license-and-disclaimer)
+9. [Authors](#authors)
+10. [Support](#support)
+11. [Last Updated](#last-updated)
 
 ---
 
-## 🏥 Project Overview
+# 🏥 Project Overview
 
 ### Purpose
 The IoT Health Monitoring System is a comprehensive solution for real-time patient vital sign monitoring using multiple biomedical sensors connected to an ESP8266 microcontroller. The system collects ECG, heart rate, SpO2, and temperature data, then transmits it to both cloud database platforms (Supabase) for analysis and storage.
@@ -33,7 +33,7 @@ The IoT Health Monitoring System is a comprehensive solution for real-time patie
 - Medical research institutions
 - Home healthcare applications
 
-## Project Structure
+# Project Structure
 
 ```
 ├── API/                    # Backend API server
@@ -51,7 +51,7 @@ The IoT Health Monitoring System is a comprehensive solution for real-time patie
 - RESTful API for data collection and retrieval
 - Secure data transmission and storage
 
-## Prerequisites
+# Prerequisites
 
 - Arduino IDE with ESP8266 board support
 - Python 3.x
@@ -59,7 +59,7 @@ The IoT Health Monitoring System is a comprehensive solution for real-time patie
 - ESP8266 development board
 - Vital signs sensors (as per hardware requirements)
 
-## Setup Instructions
+# Setup Instructions
 
 ### API Backend
 
@@ -96,14 +96,14 @@ The IoT Health Monitoring System is a comprehensive solution for real-time patie
 4. Configure WiFi credentials and API endpoint
 5. Upload the code to your ESP8266 board
 
-## Usage
+# Usage
 
 1. Power up the ESP8266 device with sensors connected
 2. Ensure the API server is running
 3. The device will automatically start collecting and transmitting vital signs data
 4. Access the API endpoints to retrieve and analyze the data
 
-## API Documentation
+# API Documentation
 
 ### Web Server Endpoints
 
@@ -152,7 +152,7 @@ The IoT Health Monitoring System is a comprehensive solution for real-time patie
 
 For more detailed API documentation, configuration guides, and troubleshooting information, please refer to our detailed documentation sections above.
 
-## Contributing
+# Contributing
 
 1. Fork the repository
 2. Create a new branch for your feature
@@ -160,7 +160,7 @@ For more detailed API documentation, configuration guides, and troubleshooting i
 4. Push to the branch
 5. Create a Pull Request
 
-## 📄 License and Disclaimer
+# 📄 License and Disclaimer
 
 ### Medical Disclaimer
 This system is intended for educational and monitoring purposes only. It is not a medical device and should not be used for diagnostic purposes. Always consult healthcare professionals for medical advice and diagnosis.
@@ -174,11 +174,11 @@ This system is intended for educational and monitoring purposes only. It is not 
 ### License
 This project is open-source under MIT License. Use responsibly and in accordance with local regulations.
 
-## Authors
+# Authors
 
 Documentation Maintainer: Anurag Panda
 
-## Support
+# Support
 
 For technical support and contributions, please:
 1. Check the documentation first
@@ -186,7 +186,7 @@ For technical support and contributions, please:
 3. Open an issue on GitHub
 4. Contact the documentation maintainer
 
-## Last Updated
+# Last Updated
 Version: 1.0  
 
 Date: November 2, 2025
